@@ -1,6 +1,6 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
-const myPeer = new Peer(undefined, { secure: true, host: "zoomjs.herokuapp.com", port: 443, });
+const myPeer = new Peer(undefined, { secure: true, host: "https://9000-eafe08fb-36ee-46bb-8b5f-21895536f389.ws-eu01.gitpod.io/", port: 9000, });
 const myVideo = document.createElement('video')
 myVideo.muted = true
 const peers = {}
